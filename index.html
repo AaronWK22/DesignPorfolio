@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <title>Design Portfolio</title>
+</head>
+<body>
+    <div class="app">
+        <input type="checkbox" class="header__menu-checkbox" id="mobile-bar-checkbox">
+        <div class="mobile-menu">
+            <div class="mobile-menu__header">
+                <label for="mobile-bar-checkbox" class="mobile-bar__close">
+                    <i class="fa-solid fa-xmark mobile-bar__close-icon"></i>
+                </label>
+            </div>
+            <div class="mobile-bar__list">
+                <a href="#" class="header__nav-item">Home</a>
+                <a href="#feature" class="header__nav-item">Work</a>
+                <a href="#contact" class="header__nav-item">Contact</a>
+            </div>
+        </div>
+        <label for="mobile-bar-checkbox" class="mobile-menu-overlay"></label>
+
+        <header class="header">
+            <div class="grid wide">
+                <div class="header__container">
+                    <div class="header__logo">
+                        <a href="#" class="header__logo-link">
+                            <img src="" alt="" srcset="./assets/img/logo.png 1.6x">
+                            Logo Here
+                        </a>
+                    </div>
+                    <div class="header__nav-list hide-on-mobile">
+                        <a href="#" class="header__nav-item">Home</a>
+                        <a href="#feature" class="header__nav-item">Work</a>
+                        <a href="#contact" class="header__nav-item">Contact</a>
+                    </div>
+                    <label for="mobile-bar-checkbox" class="header__nav-bar">
+                        <img src="" alt="" srcset="./assets/img/mobile_bar.png 2x">
+                    </label>
+                </div>
+            </div>
+        </header>
+
+        <div class="app__container">
+            <div class="grid wide">
+                <!-- Introduce -->
+                <div class="row introduce">
+                    <div class="col c-12 m-12 l-6 introduce__text-container">
+                        <h3 class="introduce__text-heading">
+                            Hi, I am Your Name
+                            A Product Designer
+                            based in City.
+                        </h3>
+                        <p class="introduce__text-desc">
+                            I help businesses and companies reach
+                            their goals by designing user-centric digital
+                            products & interactive experiences.
+                        </p>
+                        <div class="email-btn">
+                            <div class="email-btn__icon">
+                                <img src="" alt="" srcset="./assets/icons/ic1.png 2x">
+                                hi@yourname.com
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col c-12 m-12 l-6 introduce__img">
+                        <div style="background-image: url(./assets/img/user1x.png);"></div>
+                    </div>
+                </div>
+
+                <!-- Feature Work -->
+                <div id="feature" class="feature">
+                    <div class="feature__work-heading">
+                        <img alt="" srcset="./assets/img/Arrow.png 2x">
+                        Feature Work
+                    </div>
+
+                    <div class="row feature__work-list">
+                        <div class="col l-6 m-6 c-12 sm-gutter feature__work-item">
+                            <div class="feature__img" style="background-image: url(./assets/img/content_img/img1.png);"></div>
+                            <div class="feature__img" style="background-image: url(./assets/img/content_img/img2.png);"></div>
+                        </div>
+                        <div class="col l-6 m-6 c-12 sm-gutter feature__work-item">
+                            <div class="feature__img" style="background-image: url(./assets/img/content_img/img3.png);"></div>
+                            <div class="feature__img" style="background-image: url(./assets/img/content_img/img4.png);"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Visual Explorations -->
+                <div class="visual">
+                    <h3 class="visual__heading">Visual Explorations</h3>
+                    <div class="row visual__container">
+                        <div class="col l-4 m-4 c-12 visual__column">
+                            <div class="visual__img" style="background-image: url(./assets/img/content_img/img5.png);"></div>
+                            <div class="visual__img" style="background-image: url(./assets/img/content_img/img6.png);"></div>
+                        </div>
+                        <div class="col l-4 m-4 c-12 visual__column">
+                            <div class="visual__img" style="background-image: url(./assets/img/content_img/img7.png);"></div>
+                            <div class="visual__img" style="background-image: url(./assets/img/content_img/img8.png);"></div>
+                        </div>
+                        <div class="col l-4 m-4 c-12 visual__column">
+                            <div class="visual__img" style="background-image: url(./assets/img/content_img/img9.png);"></div>
+                            <div class="visual__img" style="background-image: url(./assets/img/content_img/img10.png);"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Personal projects -->
+                <div class="projects">
+                    <div class="projects__heading">
+                        Personal projects
+                    </div>
+                    <div class="row projects__container">
+                        <div class="col l-4 m-4 c-12">
+                            <div class="project__img" style="background-image: url(./assets/img/content_img/Rectangle4.png);"></div>
+                        </div>
+                        <div class="col l-4 m-4 c-12">
+                            <div class="project__img" style="background-image: url(./assets/img/content_img/Rectangle5.png);"></div>
+                        </div>
+                        <div class="col l-4 m-4 c-12">
+                            <div class="project__img" style="background-image: url(./assets/img/content_img/Rectangle6.png);"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact me -->
+                <div id="contact" class="contact">
+                    <div class="contact__heading">Contact me</div>
+                    <div class="contact__desc">
+                        If you are looking to hire a product designer,
+                        I’m currently available for freelance work
+                    </div>
+                    <div class="email-btn contact__btn">
+                        <div class="email-btn__icon">
+                            <img src="" alt="" srcset="./assets/icons/ic1.png 2x">
+                            hi@yourname.com
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="grid wide">
+                <div class="footer__container">
+                    <p class="footer__copy-write">
+                        Made by
+                        <a href="#" class="footer__copy-write-link">Your Name</a>
+                        — Copyright 2021
+                    </p>
+                    <div class="social__list">
+                        <div class="social__item">
+                            <a href="#" class="social__link">
+                                <img alt="" srcset="./assets/icons/ic2.png 2x">
+                            </a>
+                        </div>
+                        <div class="social__item">
+                            <a href="#" class="social__link">
+                                <img alt="" srcset="./assets/icons/ic3.png 2x">
+                            </a>
+                        </div>
+                        <div class="social__item">
+                            <a href="#" class="social__link">
+                                <img alt="" srcset="./assets/icons/ic4.png 2x">
+                            </a>
+                        </div>
+                        <div class="social__item">
+                            <a href="#" class="social__link">
+                                <img alt="" srcset="./assets/icons/ic5.png 2x">
+                            </a>
+                        </div>
+                        <div class="social__item">
+                            <a href="#" class="social__link">
+                                <img alt="" srcset="./assets/icons/ic6.png 2x">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
